@@ -18,4 +18,4 @@ mysql --user=<su_usuario> -p <nombre_base_de_datos> < <ruta_archivo/votacion.sql
     **password**: Contraseña de la base de datos \
     **database**: Nombre de la base de datos definido al exportar el archivo sql \
 
-- Ingresar al proyecto a traves delñ navegador
+- Ingresar al proyecto a traves del navegador
