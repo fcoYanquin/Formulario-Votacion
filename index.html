@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votación</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Formulario de Votación</h1>
+
+        <form id="form_votacion">
+            <table>
+                <tr>
+                    <td style="width: 250px;">Nombre y Apellido</td>
+                    <td><input id="nombre_votante" name="nombre_votante" class="largo-input"></td>
+                </tr>
+                <tr>
+                    <td>Alias</td>
+                    <td><input id="alias_votante" name="alias_votante" class="largo-input"></td>
+                </tr>
+                <tr>
+                    <td>RUT</td>
+                    <td><input id="rut_votante" name="rut_votante" class="largo-input"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input id="email_votante" name="email_votante" class="largo-input"></td>
+                </tr>
+                <tr>
+                    <td>Region</td>
+                    <td>
+                        <select id="region_votante" name="region_votante" class="largo-input">
+                            <option value="">Seleccionar</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comuna</td>
+                    <td>
+                        <select id="comuna_votante" name="comuna_votante" class="largo-input">
+                            <option value="">Seleccionar</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Candidato</td>
+                    <td>
+                        <select id="candidato_votante" name="candidato_votante" class="largo-input">
+                            <option value="">Seleccionar</option>
+                        </select>
+                    </td>
+                </tr>   
+                <tr>
+                    <td>Como se enteró de nosotros</td>
+                    <td>
+                        <div id="canales"></div>
+                        <span class="error-mensaje"></span>
+                    </td>
+                </tr>
+            </table>
+            <div style="padding-top: 10px;">
+                <button id="btn_votar" type="button">Votar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="public/js/jquery.validate.min.js"></script>
+<script src="public/js/app.js"></script>
+</html>
