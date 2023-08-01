@@ -41,7 +41,7 @@ $(document).ready(function(){
                 },
                 email_votante: {
                     required: true,
-                    //email: true
+                    email: true
                 },
                 region_votante: {
                     required: true
@@ -72,7 +72,7 @@ $(document).ready(function(){
                 },
                 email_votante: {
                     required: "Este campo es requerido",
-                    email: "Ingrese un correo válido",
+                    email: "Debe ingresar un correo válido",
                 },
                 region_votante: {
                     required: "Este campo es requerido"
